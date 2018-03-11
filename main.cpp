@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    FILE *fp = fopen("/abcdefg", "r");
+    FILE *fp = fopen("/abcdefgg", "r");
     if(fp == NULL)
     {
         printf("errno: %d\n", errno);
